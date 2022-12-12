@@ -1,0 +1,4 @@
+<!-- 把点击事情交给外部，更加具有扩展性 -->
+<input placeholder="请搜索" bindtap="handleTap" />
+
+

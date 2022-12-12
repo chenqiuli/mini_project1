@@ -1,0 +1,31 @@
+/* pages/searchlist/searchlist.wxss */
+.searchBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.searchItem {
+  width: 50%;
+  text-align: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.searchItem image {
+  width: 100%;
+}
+
+.searchItem .price {
+  color: red;
+}
+
+.sortBox {
+  display: flex;
+  width: 100%;
+}
+
+.sortBox view {
+  flex: 1;
+  text-align: center;
+}

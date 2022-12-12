@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "SearchBom": "../../components/search/Search",
+    "mp-sticky": "@miniprogram-component-plus/sticky"
+  },
+  "navigationBarTitleText": "主页",
+  "navigationBarBackgroundColor": "#13C045",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white"
+}

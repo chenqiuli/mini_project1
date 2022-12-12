@@ -1,0 +1,5 @@
+/* pages/telform/telform.wxss */
+
+.weui-cell_vcode {
+  padding: 20rpx !important;
+}

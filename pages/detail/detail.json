@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mp-sticky": "@miniprogram-component-plus/sticky"
+  },
+  "navigationBarBackgroundColor": "#13C045",
+  "navigationBarTextStyle": "white"
+}

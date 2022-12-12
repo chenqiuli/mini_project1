@@ -1,0 +1,42 @@
+/* pages/cart/cart.wxss */
+.cell_footer {
+  display: flex;
+  background: #fff;
+}
+
+.cell_footer text,
+.cell_footer input {
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: inline-block;
+  width: 60rpx;
+  border: 1px solid #ccc;
+}
+
+.content {
+  display: flex;
+}
+
+.content image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 10rpx;
+  left: 0;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  padding: 0 20rpx;
+}
+
+.footer button {
+  margin-right: 40rpx !important;
+}
+

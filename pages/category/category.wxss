@@ -1,0 +1,29 @@
+/* pages/category/category.wxss */
+page {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.vtabsContent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid #ccc;
+}
+
+.vtabsContent .vtabsItem {
+  width: 50%;
+  flex: 1 0 1;
+  text-align: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.vtabsContent .vtabsItem view {
+  font-size: 12px;
+}
+
+.vtabsContent image {
+  width: 200rpx;
+}

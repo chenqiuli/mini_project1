@@ -1,0 +1,16 @@
+/* pages/mine/mine.wxss */
+.info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: #13C045;
+  color: #fff;
+  font-size: 18px;
+}
+
+.info image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}

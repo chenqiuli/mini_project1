@@ -1,0 +1,91 @@
+/* pages/detail/detail.wxss */
+swiper image {
+  width: 100%;
+  height: 200px;
+}
+
+swiper {
+  height: 200px;
+}
+
+.tabBox {
+  display: flex;
+  padding: 20rpx;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: white;
+}
+
+.tabBox view {
+  flex: 1;
+  padding-bottom: 60rpx;
+}
+
+.tabBox .active {
+  border-bottom: 1px solid red;
+}
+
+.goodsDetail image {
+  width: 100%;
+}
+
+.commentBox {
+  padding: 20rpx;
+  border-bottom: 1px solid gray;
+}
+
+.commentBox .user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentBox .user .nickname {
+  display: flex;
+}
+
+.commentBox .user .nickname view {
+  margin-left: 10rpx;
+}
+
+.commentBox .user image {
+  width: 100rpx;
+  border-radius: 50%;
+}
+
+.commentBox .content {
+  margin: 20rpx 0;
+}
+
+.commentBox .pic {
+  width: 200rpx;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.footer view {
+  flex: 1;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #ffffff;
+}
+
+.footer view:first-child {
+  background-color: #15BE45;
+}
+
+.footer view:nth-child(2) {
+  background-color: #F3615F;
+}
+
+.footer view:last-child {
+  background-color: #FCD290;
+}

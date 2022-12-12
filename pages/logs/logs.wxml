@@ -1,0 +1,5 @@
+<!--logs.wxml-->
+<button bindtap="handleGet">get请求</button>
+<button bindtap="handlePost">post请求</button>
+<button bindtap="handlePut">put请求</button>
+<button bindtap="handleDelete">delete请求</button>

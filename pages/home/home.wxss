@@ -1,0 +1,24 @@
+/* pages/home/home.wxss */
+
+swiper image {
+  width: 100%;
+}
+
+swiper {
+  height: 296rpx;
+}
+
+.goodsBox .goodsItem  {
+  display: flex;
+  padding: 10rpx;
+}
+
+.goodsBox .goodsItem image {
+  width: 200rpx;
+  height: 160rpx;
+}
+
+.goodsBox .goodsInfo > view {
+  margin-bottom: 6rpx;
+}
+

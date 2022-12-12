@@ -1,0 +1,35 @@
+<!-- 轮播 -->
+<swiper indicator-dots="{{true}}" circular="{{true}}">
+  <swiper-item wx:for="{{info.slides}}" wx:key="index">
+    <image src="http://localhost:3000{{item}}" mode="aspectFit" bindtap="handleTap" data-current="http://localhost:3000{{item}}" />
+  </swiper-item>
+</swiper>
+<!-- 选项卡 -->
+<mp-sticky offset-top="0">
+  <view class="tabBox" style="width: 100vw;">
+  <view wx:for="{{tabList}}" wx:key="index" class="{{current === index ? 'active': ''}}" data-index="{{index}}" bindtap="handleActive">{{item}}</view>
+</view>
+</mp-sticky>
+<!-- 详情区域 -->
+<view wx:if="{{current === 0}}" class="goodsDetail">
+  <view style="color: gray;">{{info.feature}}</view>
+  <image wx:for="{{info.desc}}" wx:key="index" mode="widthFix" src="{{item}}"></image>
+</view>
+<view wx:if="{{current === 1}}">
+  <view wx:for="{{commentList}}" class="commentBox">
+    <view class="user">
+      <view class="nickname">
+        <image src="http://localhost:3000{{item.userImageUrl}}" mode="widthFix"></image>
+        <view>{{item.nickname}}</view>
+      </view>
+      <view>{{item.creationTime}}</view>
+    </view>
+    <view class="content">{{item.content}}</view>
+    <image class="pic" src="http://localhost:3000{{item.imgUrl}}" mode="widthFix"></image>
+  </view>
+</view>
+<!-- 底部按钮 -->
+<view class="footer">
+  <view bindtap="handleChange">跳转购物车</view>
+  <view bindtap="handleAdd">加入购物车</view>
+</view>

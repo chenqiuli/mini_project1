@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar"
+  },
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#13C045",
+  "navigationBarTextStyle": "white"
+}
