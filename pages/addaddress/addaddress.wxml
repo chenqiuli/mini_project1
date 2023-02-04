@@ -1,0 +1,25 @@
+<!--pages/addaddress/addaddress.wxml-->
+
+<mp-form id="form" rules="{{rules}}" models="{{form}}">
+  <mp-cells>
+    <mp-cell class="form_item" prop="consignee" title="收货人">
+      <input bindinput="formInputChange" value="{{form.consignee}}" data-field="consignee" class="weui-input" placeholder="名字" />
+    </mp-cell>
+    <mp-cell class="form_item" prop="phone" title="手机号码">
+      <input bindinput="formInputChange" value="{{form.phone}}" data-field="phone" class="weui-input" placeholder="手机号" />
+    </mp-cell>
+    <mp-cell class="form_item" prop="region" title="所在地区">
+      <input bindinput="formInputChange" value="{{form.region}}" data-field="region" class="weui-input" placeholder="省、市、区、街道" />
+    </mp-cell>
+    <mp-cell class="form_item" prop="address" title="详细地址">
+      <input bindinput="formInputChange" value="{{form.address}}" data-field="address" class="weui-input" placeholder="小区楼栋/乡村名称" />
+    </mp-cell>
+    <mp-cell class="form_item" prop="isDefault" title="设为默认地址">
+      <switch checked="{{form.isDefault}}" bindchange="switchChange" />
+    </mp-cell>
+  </mp-cells>
+</mp-form>
+
+<view class="submit_btn_wrap">
+  <button class="weui-btn" type="primary" bindtap="handleSubmitForm">保存</button>
+</view>

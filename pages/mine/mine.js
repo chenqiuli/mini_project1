@@ -53,11 +53,17 @@ Page({
     });
   },
 
+  handleAddAddress(){
+    wx.navigateTo({
+      url: '/pages/address/address',
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    checkAuth(() => {      
+    checkAuth(() => {
       this.setData({
         nickName: token.nickName,
         avatarUrl: token.avatarUrl
@@ -76,7 +82,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-    checkAuth(() => {      
+    checkAuth(() => {
       this.setData({
         nickName: token.nickName,
         avatarUrl: token.avatarUrl

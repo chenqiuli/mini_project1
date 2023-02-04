@@ -1,0 +1,11 @@
+.weui-cell__hd {
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.weui-btn {
+  background: #13C045;
+  width: 80% !important;
+  height: 100rpx;
+  text-align: center;
+  border-radius: 50rpx;
+}

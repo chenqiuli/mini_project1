@@ -2,11 +2,11 @@
 .info {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background: #13C045;
   color: #fff;
   font-size: 18px;
+  border-top: unset !important;
 }
 
 .info image {

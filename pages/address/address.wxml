@@ -1,0 +1,30 @@
+<!--pages/address/address.wxml-->
+<wxs src="./address.wxs" module="wxs"></wxs>
+<view class="page">
+  <view class="item" wx:for="{{addressList}}" wx:key="index">
+    <view class="icon" wx:if="{{item.isDefault}}">
+      <mp-icon icon="home" color="white" size="{{15}}"></mp-icon>
+    </view>
+    <view class="icon surname_icon" wx:else>
+      {{wxs.sliceSurName(item.consignee)}}
+    </view>
+    <view class="info">
+      <view class="basicInfo">
+        <text class="name">{{item.consignee}}</text>
+        <text class="phone">{{item.phone}}</text>
+        <text class="default" wx:if="{{item.isDefault}}">默认</text>
+      </view>
+      <view class="address">{{item.region}}{{item.address}}</view>
+    </view>
+    <view class="edit">
+      <mp-icon bindtap="handleEdit" data-id="{{item.id}}" icon="pencil" color="black" size="{{15}}"></mp-icon>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <view class="btn" bindtap="handleAdd">
+    <mp-icon icon="add" color="white" size="{{15}}"></mp-icon>
+    <text>添加收货地址</text>
+  </view>
+</view>

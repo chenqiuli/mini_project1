@@ -8,7 +8,9 @@
     "pages/search/search",
     "pages/searchlist/searchlist",
     "pages/auth/auth",
-    "pages/telform/telform"
+    "pages/telform/telform",
+    "pages/address/address",
+    "pages/addaddress/addaddress"
   ],
   "window": {
     "backgroundTextStyle": "dark",

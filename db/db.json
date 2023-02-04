@@ -725,7 +725,7 @@
       "tel": "111",
       "goodId": 5,
       "number": 3,
-      "checked": true,
+      "checked": false,
       "id": 7
     },
     {
@@ -740,7 +740,7 @@
       "username": "小秋🐶",
       "tel": "111",
       "goodId": 12,
-      "number": 1,
+      "number": 3,
       "checked": true,
       "id": 9
     },
@@ -749,7 +749,7 @@
       "tel": "111",
       "goodId": 15,
       "number": 1,
-      "checked": true,
+      "checked": false,
       "id": 10
     },
     {
@@ -772,6 +772,72 @@
       "avatarUrl": "http://tmp/Y6ekqFKrFh5md415b516c9144a7a9d76ef49b146ae0b.jpg",
       "tel": "111",
       "id": 6
+    }
+  ],
+  "address": [
+    {
+      "consignee": "陈小姐",
+      "phone": "13926756787",
+      "region": "广东省汕头市潮南区陇田镇",
+      "address": "田心村田二",
+      "isDefault": true,
+      "id": 1
+    },
+    {
+      "consignee": "陈小秋",
+      "phone": "14323456543",
+      "region": "广东省",
+      "address": "鑫田",
+      "isDefault": false,
+      "id": 2
+    },
+    {
+      "consignee": "M",
+      "phone": "14765434565",
+      "region": "广东省汕头市潮南区陇田镇",
+      "address": "田二",
+      "isDefault": true,
+      "id": 3
+    },
+    {
+      "consignee": "Q",
+      "phone": "22",
+      "region": "广东",
+      "address": "广州",
+      "isDefault": true,
+      "id": 4
+    },
+    {
+      "consignee": "梁贼",
+      "phone": "14323456543",
+      "region": "广东",
+      "address": "云浮",
+      "isDefault": true,
+      "id": 5
+    },
+    {
+      "consignee": "妈妈",
+      "phone": "13432123432",
+      "region": "广东汕头",
+      "address": "田心",
+      "isDefault": true,
+      "id": 6
+    },
+    {
+      "consignee": "爸爸",
+      "phone": "34234234321",
+      "region": "广东汕头",
+      "address": "田心",
+      "isDefault": true,
+      "id": 7
+    },
+    {
+      "consignee": "秋",
+      "phone": "13756434543",
+      "region": "广东汕头",
+      "address": "田心村",
+      "isDefault": true,
+      "id": 8
     }
   ]
 }

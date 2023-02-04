@@ -4,6 +4,5 @@
     "mp-cell": "weui-miniprogram/cell/cell",
     "mp-slideview": "weui-miniprogram/slideview/slideview"
   },
-  "navigationBarBackgroundColor": "#13C045",
-  "navigationBarTextStyle": "white"
+  "navigationBarBackgroundColor": "#13C045"
 }

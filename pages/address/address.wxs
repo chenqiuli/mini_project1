@@ -1,0 +1,7 @@
+function sliceSurName(name) {
+  return name.slice(0,1);
+}
+
+module.exports = {
+  sliceSurName: sliceSurName
+}

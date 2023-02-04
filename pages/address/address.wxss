@@ -1,0 +1,107 @@
+/* pages/address/address.wxss */
+
+Page {
+  height: 100vh;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15rpx;
+  box-sizing: border-box;
+}
+
+.page {
+  height: calc(100vh - 140rpx);  
+  background: #ffffff;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150rpx;
+  background-color: #ffffff;
+}
+
+.item .icon { 
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13C045;
+  border-radius: 50%;
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.item .surname_icon {
+  background-color: rgba(19,192,69,0.3);
+  color: #13C045;
+  font-size: 14px;
+}
+
+.item .info {
+  margin: 0 20rpx;
+  flex: 8;
+}
+
+.item .info .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item .info .phone {
+  color: gray;
+  margin: 0 10rpx;
+  font-size: 12px;
+}
+
+.item .info .default {
+  font-size: 12px;
+  height: 20rpx;
+  line-height: 20rpx;
+  text-align: center;
+  color: #13C045;
+  border: 1px solid #13C045;
+  padding: 0 5rpx;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.item .info .address {
+  font-size: 12px;
+}
+
+.item .edit {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+  background: #ffffff;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+
+.footer .btn {
+  width: 100%;
+  text-align: center;
+  border-radius: 40rpx;
+  background: #13C045;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.footer text {
+  margin-left: 20rpx;
+}

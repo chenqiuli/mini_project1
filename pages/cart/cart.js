@@ -21,9 +21,12 @@ Page({
       request({
         url: `/carts?_expand=good&username=${wx.getStorageSync('token').nickName}&tel=${wx.getStorageSync('tel')}`
       }).then(res => {
-        // console.log(res)
+        console.log(res)
         this.setData({
           cartList: res
+        });
+        wx.setNavigationBarTitle({
+          title: `购物车 (${res.length})`,
         });
       });
     });
@@ -68,7 +71,7 @@ Page({
     const item = evt.currentTarget.dataset.item;
     if (item.number === 1) {
       wx.showToast({
-        title: '宝贝数量不能再少了',
+        title: '宝贝数量不能再少了o(╥﹏╥)o',
         icon: 'none'
       });
       return;
@@ -150,7 +153,6 @@ Page({
         cartList: newCartList
       });
     }
-
   },
 
   /**

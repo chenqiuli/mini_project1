@@ -35,6 +35,27 @@
                                    "query": "",
                                    "launchMode": "default",
                                    "scene": null
+                            },
+                            {
+                                   "name": "",
+                                   "pathName": "pages/mine/mine",
+                                   "query": "",
+                                   "launchMode": "default",
+                                   "scene": null
+                            },
+                            {
+                                   "name": "",
+                                   "pathName": "pages/address/address",
+                                   "query": "",
+                                   "launchMode": "default",
+                                   "scene": null
+                            },
+                            {
+                                   "name": "",
+                                   "pathName": "pages/addaddress/addaddress",
+                                   "query": "type=add",
+                                   "launchMode": "default",
+                                   "scene": null
                             }
                      ]
               }
