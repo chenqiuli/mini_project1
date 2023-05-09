@@ -21,7 +21,7 @@ Page({
       request({
         url: `/carts?_expand=good&username=${wx.getStorageSync('token').nickName}&tel=${wx.getStorageSync('tel')}`
       }).then(res => {
-        console.log(res)
+       //  console.log(res)
         this.setData({
           cartList: res
         });

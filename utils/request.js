@@ -3,7 +3,8 @@
  * @param {*} params 
  */
 
-const urlPrefix = "http://localhost:3000";
+//  端口根据json-server开启时设置的端口变更
+const urlPrefix = "http://localhost:9000";
 
 function request(params, isHeader = false) {
     // 在请求前显示loading

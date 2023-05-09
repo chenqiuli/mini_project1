@@ -7,7 +7,7 @@
                      <mp-cell>
                             <view class="content">
                                    <checkbox checked="{{item.checked}}" bindtap="handleCheck" data-item="{{item}}"></checkbox>
-                                   <image src="http://localhost:3000{{item.good.poster}}" mode="aspectFit"></image>
+                                   <image src="http://localhost:9000{{item.good.poster}}" mode="aspectFit"></image>
                                    <view style="font-size: 14px;">
                                           <view>{{item.good.title}}</view>
                                           <view style="color: red;">￥{{item.good.price}}</view>

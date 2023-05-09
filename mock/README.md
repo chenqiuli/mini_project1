@@ -1,4 +1,4 @@
-## json-server：30 秒内提供 Restful Api，零编码，crud 全部在 json 文件中体现出来
+## 一、json-server：30 秒内提供 Restful Api，零编码，crud 全部在 json 文件中体现出来。这是一个提供 Restful Api 的服务器。
 
 ### 1、`npm install -g json-server `
 
@@ -54,15 +54,13 @@ handleDelete(){
 }
 ```
 
-## json-server 运行
-
-### 这是一个提供 Restful Api 服务的 json-server 服务器
+## 二、使用 json-server
 
 #### 1、按住 Shift 键，打开 PowerShell 窗口
 
 #### 2、全局安装 npm i -g json-server
 
-#### 3、执行 json-server --watch db.json 开启服务
+#### 3、执行 json-server --watch db.json --port 9000 开启服务
 
 #### 4、前端访问图片路径不需要/public: http://localhost:3000/images/xxx
 

@@ -15,7 +15,7 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "卖手机小程序",
+    "navigationBarTitleText": "手机购物",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

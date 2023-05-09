@@ -1,7 +1,7 @@
 <!-- 轮播 -->
 <swiper indicator-dots="{{true}}" circular="{{true}}">
   <swiper-item wx:for="{{info.slides}}" wx:key="index">
-    <image src="http://localhost:3000{{item}}" mode="aspectFit" bindtap="handleTap" data-current="http://localhost:3000{{item}}" />
+    <image src="http://localhost:9000{{item}}" mode="aspectFit" bindtap="handleTap" data-current="http://localhost:9000{{item}}" />
   </swiper-item>
 </swiper>
 <!-- 选项卡 -->
@@ -19,13 +19,13 @@
   <view wx:for="{{commentList}}" class="commentBox">
     <view class="user">
       <view class="nickname">
-        <image src="http://localhost:3000{{item.userImageUrl}}" mode="widthFix"></image>
+        <image src="http://localhost:9000{{item.userImageUrl}}" mode="widthFix"></image>
         <view>{{item.nickname}}</view>
       </view>
       <view>{{item.creationTime}}</view>
     </view>
     <view class="content">{{item.content}}</view>
-    <image class="pic" src="http://localhost:3000{{item.imgUrl}}" mode="widthFix"></image>
+    <image class="pic" src="http://localhost:9000{{item.imgUrl}}" mode="widthFix"></image>
   </view>
 </view>
 <!-- 底部按钮 -->

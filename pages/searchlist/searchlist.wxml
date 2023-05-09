@@ -12,7 +12,7 @@
 
 <view class="searchBox">
   <view wx:for="{{searchList}}" wx:key="index" class="searchItem" data-item="{{item}}" bindtap="handleTap">
-    <image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
+    <image src="http://localhost:9000{{item.poster}}" mode="widthFix"></image>
     <view>{{item.title}}</view>
     <view class="price">价格：￥{{item.price}}</view>
     <view>好评率：{{item.goodcomment}}</view>

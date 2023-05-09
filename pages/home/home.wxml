@@ -1,7 +1,7 @@
 <!-- 轮播图 -->
 <swiper indicator-dots="{{true}}" circular="{{true}}">
   <swiper-item wx:for="{{swiperList}}" wx:key="index">
-    <image src="http://localhost:3000{{item.url}}" mode="widthFix" />
+    <image src="http://localhost:9000{{item.url}}" mode="widthFix" />
   </swiper-item>
 </swiper>
 <!-- 搜索，吸顶，跳转 -->
@@ -13,7 +13,7 @@
 <!-- 列表 -->
 <view class="goodsBox">
   <view wx:for="{{goodsList}}" wx:key="index" class="goodsItem" bindtap="handleDetail" data-id="{{item.id}}" data-title="{{item.title}}">
-    <image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
+    <image src="http://localhost:9000{{item.poster}}" mode="widthFix"></image>
     <view class="goodsInfo">
       <view>{{item.title}}</view>
       <view style="color: red;">价格：￥{{item.price}}</view>

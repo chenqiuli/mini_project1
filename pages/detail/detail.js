@@ -101,7 +101,7 @@ Page({
 
   handleTap(e) {
     wx.previewImage({
-      urls: this.data.info.slides.map(item => `http://localhost:3000${item}`),
+      urls: this.data.info.slides.map(item => `http://localhost:9000${item}`),
       current: e.target.dataset.current,
     });
   },
